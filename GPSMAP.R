@@ -11,7 +11,6 @@ get_places <- function(lat_lon, cat, iso_profile, iso_time){
   # tutaj robię requesta do foursquare API po miejsca
   
   url <- "https://api.foursquare.com/v3/places/search"
-  api_key = "fsq35MP9T9XP6LWYPMGNOscz1C7A+tGc4iCDLTBhtNxuZW4="
   
   rad <- switch(
     iso_profile,
